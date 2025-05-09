@@ -2,15 +2,15 @@
   <div id="app">
     <h1>SMT上板看板</h1>
     <div class="data-input">
-      <textarea v-model="jsonInput" placeholder="请输入JSON数据" rows="5" cols="50"></textarea>
-      <button @click="parseJson">解析数据</button>
+      <textarea v-model="jsonInput" placeholder="请输入JSON1数据" rows="5" cols="50"></textarea>
+      <button @click="parseJson">解析数据1</button>
     </div>
     <div v-if="data.length > 0" class="data-display">
       <h2>数据展示</h2>
       <table>
         <thead>
           <tr>
-            <th>工单号</th>
+            <th>工单号2</th>
             <th>物料号</th>
             <th>上板SN</th>
             <th>完成进度</th>
